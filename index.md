@@ -46,7 +46,7 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 
 ## Getting Started
 
-https://github.com/PalladiumCo1n/palladium/releases
+[Downloads](https://github.com/PalladiumCo1n/palladium/releases)
 
 ### Gui Wallet:
 - Download `Gui.Wallet.zip` from the link above
