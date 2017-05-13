@@ -1,3 +1,5 @@
+
+
 ## PalladiumCoin
 
 ### What is PalladiumCoin?
@@ -5,10 +7,10 @@ PalladiumCoin is an open decentralized cryptocurrency. Anyone interested can joi
 PalladiumCoin allows safe and secure transactions around the globe and offers the convenience of instant fee-free money transactions.
 
 ### Join Us
-PalladiumCoin is an open cyptocurrency. Therefore anyone willing can become a user of the currency and voluntarily take part in operation of the network. The only thing you need to do is to download special software that will create a wallet for you. With help of this software you will be able to send money to other users and receive payments from them.
+PalladiumCoin is an open-sourced cyptocurrency. Hence, anybody wanting to, can become a user of the currency and voluntarily take part in operation of the network. The only thing you need to do is download special software that will create a wallet for you. With help of this software you will be able to send money to other users and receive payments from them.
 PalladiumCoin algorithms don’t allow other users to know your wallet balance, to whom you send money and where you receive your funds from.
-You can take part in operation of the network by allocating computing power of your computer. Due to this mechanism, transaction processing is decentralized, which allows a person to be not only a user, but also a participant.
-There are two ways to obtain Bytecoins. You can take part in network maintenance and get a reward for it, or trade for it as with any other currency.
+You can take part in operation of the network by using computing power of your computer. Due to this mechanism, transaction processing is decentralized, which allows a person to be not only a user, but also a participant.
+There are two ways to obtain PallidiumCoin. You can take part in network maintenance and get a reward for it, or trade for it as with any other currency.
 
 ### Transactions
 Money transactions between people are carried out through an intermediary, a bank or financial institution. Transaction reliability is guaranteed by an agent who conducts the transaction.
@@ -39,3 +41,6 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 ### Specifications
 **Block time: 120 seconds.** It takes 120 seconds to check the authenticity of a transaction and process it. This time is used to apply cryptographic algorithms, and make the payments secure.
 **Total coins: 200 billion BCN.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
+
+## Download
+
