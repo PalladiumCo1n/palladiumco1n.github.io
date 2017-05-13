@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## PalladiumCoin
 
-You can use the [editor on GitHub](https://github.com/PalladiumCo1n/palladiumco1n.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### What is PalladiumCoin?
+PalladiumCoin is an open decentralized cryptocurrency. Anyone interested can join the currency's network and take part in currency development.
+PalladiumCoin allows safe and secure transactions around the globe and offers the convenience of instant fee-free money transactions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Join Us
+PalladiumCoin is an open cyptocurrency. Therefore anyone willing can become a user of the currency and voluntarily take part in operation of the network. The only thing you need to do is to download special software that will create a wallet for you. With help of this software you will be able to send money to other users and receive payments from them.
+PalladiumCoin algorithms don’t allow other users to know your wallet balance, to whom you send money and where you receive your funds from.
+You can take part in operation of the network by allocating computing power of your computer. Due to this mechanism, transaction processing is decentralized, which allows a person to be not only a user, but also a participant.
+There are two ways to obtain Bytecoins. You can take part in network maintenance and get a reward for it, or trade for it as with any other currency.
 
-### Markdown
+### Transactions
+Money transactions between people are carried out through an intermediary, a bank or financial institution. Transaction reliability is guaranteed by an agent who conducts the transaction.
+Transactions between PalladiumCoin users are carried out through the Internet. Transaction privacy is protected by secure cryptographic algorithms whereby no one can identify who sent the money, who the receiver was, and what amount of money was transferred.
+PalladiumCoin transactions processing is done by the whole network of users. Yet no participant has access to the transaction details. All transfers are fully anonymous.
+The transactions processing requires a considerable amount of computational resources. Those users who joined the network may allocate time of their computers for transaction processing. As a reward they receive PC. Such process is called mining.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Coin Emission
+Emission of fiat currencies is a closed process where an issuer is engaging its own capabilities. One can’t take part in the emission process.
+PalladiumCoin emission is an open process which employs computing powers of all network members. Any user can join the Palladium network and take part in the emission process (thus, becoming a miner).
+Mining in the network results in creation of new money, which serves as the reward for users who employ their computing power in order to process transactions.
+All transactions are carried out each 120 seconds. Miners ensure that the transactions are processed correctly and provide cryptographic protection of transactions and personal data. However, miners cannot access users' financial data since Bytecoin protects the identity of the sender and the receiver, and conceals the sum transferred.
+In return, miners receive a lump sum every 120 seconds. Such approach allows both new money emission and zero-fee transactions.
 
-```markdown
-Syntax highlighted code block
+### Coin Deflation
+PalladiumCoins are gradually getting more expensive over time, since the emission is limited to 200 billion PC. The number of PalladiumCoins emitted each 120 seconds is slightly decreasing. As a result PC gains value and exchange rate increase.
+While currencies with sharp decrease of reward per block are exposed to intense declines in network power, Bytecoin emission is decreasing slowly, which protects the currency from economic shocks.
 
-# Header 1
-## Header 2
-### Header 3
+### How PalladiumCoin Works
+Ryan has 100 PC in his wallet. He wants to order chinese delivery to his place which costs 15 PC, all fees included.
+Ryan places an order on the website. Right after that he receives a 15 PC bill that contains the restaurants PalladiumCoin wallet address. Ryan broadcasts the following instruction to the PalladiumCoin network: send 15 BCN from John_address to restaurant_address.
+Once each computer in the network receives this insutruction it checks whether this PC Ryan wants to transfer actually belongs to him. However a computer can’t find out neither who transferred this PC to Ryan, nor his balance. A computer simply checks conformity of sender’s signature. It has no access to personal data. 
+Each computer in the network collects the transactions that need to be processed and packs them up in a block. Each block should comply with specific rules, which is a difficult task to solve. Hence, each computer in the network works on calculating suitable transaction block form. This is required to protect the network from transaction forgery.
+At some point one of computers in the network may be lucky to find the correct block structure. Then this computer puts the block into its blockchain file, which represents the database for all performed transactions. Then this computer broadcasts the new block to all other computers in the network so that they could also update their blockchain files. The transaction is completed and the owner of the computer that was the first to find the correct block structure gets a reward.
+After the transaction is done, 15 PC belongs to the restaurant and no longer to Ryan. The PalladiumCoin blockchain contains all data required for the restaurant owner to use this 15 PC for his own transactions.
+This whole process takes about than 2 minutes, and the restaurant owner will get paid before he even starts to cook Ryan's pizza. Moreover, in order to get paid with PallidiumCoins he only needs a computer with the Internet access. No fees, no intermediaries.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PalladiumCo1n/palladiumco1n.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Specifications
+**Block time: 120 seconds.** It takes 120 seconds to check the authenticity of a transaction and process it. This time is used to apply cryptographic algorithms, and make the payments secure.
+**Total coins: 200 billion BCN.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
