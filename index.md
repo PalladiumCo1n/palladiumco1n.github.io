@@ -1,6 +1,8 @@
 
 
-## PalladiumCoin
+# PalladiumCoin
+
+## Information
 
 ### What is PalladiumCoin?
 PalladiumCoin is an open decentralized cryptocurrency. Anyone interested can join the currency's network and take part in currency development.
@@ -42,5 +44,40 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 **Block time: 120 seconds.** It takes 120 seconds to check the authenticity of a transaction and process it. This time is used to apply cryptographic algorithms, and make the payments secure.
 **Total coins: 200 billion BCN.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
 
-## Download
+## Getting Started
+
+https://github.com/PalladiumCo1n/palladium/releases
+
+### Gui Wallet:
+- Download `Gui.Wallet.zip` from the link above
+- Extract all files into a directory of your choosing
+- run `palladiumcoin.exe` and create your wallet
+- wait for the wallet to sync with the network! **WARNING: This may take several hours!**
+
+Congrats! Your wallet is all set up!
+
+
+
+### Mining:
+- Download `executables.zip` from the link above
+- Extract all files into a directory of your choosing
+- Run `daemon.exe` and allow it to sync with the network **WARNING: This may take server hours!**
+- Enter `start_mining "address" "threads"` where "address" is your wallet address and "threads" is the number of threads to use to mine! (Higher the number means more resources are dedicated to mining) **Note: do not include quotation marks!!!**
+
+To stop mining, enter `stop_mining` 
+To close the daemon, enter `exit`
+
+### Running the Command line wallet:
+**This is recommended for advanced users only!**
+
+- Download `executables.zip` from the link above
+- Extract all files into a directory of your choosing
+- Run `daemon.exe` and allow it to sync with the network **WARNING: This may take server hours!**
+- Run `simplewallet.exe` and follow onscreen prompt
+
+ to close the daemon or wallet, enter `exit` into the respective console
+
+
+
+
 
