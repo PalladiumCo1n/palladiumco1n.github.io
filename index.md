@@ -1,4 +1,6 @@
-
+---
+title: Palladium (Pd)
+---
 
 # PalladiumCoin
 
