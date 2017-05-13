@@ -62,7 +62,7 @@ Congrats! Your wallet is all set up!
 - Download `executables.zip` from the link above
 - Extract all files into a directory of your choosing
 - Run `daemon.exe` and allow it to sync with the network **WARNING: This may take server hours!**
-- Enter `start_mining "address" "threads"` where "address" is your wallet address and "threads" is the number of threads to use to mine! (Higher the number means more resources are dedicated to mining) **Note: do not include quotation marks!!!**
+- Enter `start_mining "address" "threads"` where "address" is your wallet address and "threads" is the number of threads to use to mine! (Higher the number means more resources dedicated to mining) **Note: do not include quotation marks!!!**
 
 To stop mining, enter `stop_mining` 
 To close the daemon, enter `exit`
