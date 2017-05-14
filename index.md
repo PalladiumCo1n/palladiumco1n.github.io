@@ -44,7 +44,7 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 
 ### Specifications
 **Block time: 120 seconds.** It takes 120 seconds to check the authenticity of a transaction and process it. This time is used to apply cryptographic algorithms, and make the payments secure.
-**Total coins: 200 billion PC.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
+**Total coins: 22 million PC.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
 
 ## Getting Started
 
