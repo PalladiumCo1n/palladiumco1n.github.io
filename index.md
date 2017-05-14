@@ -8,12 +8,12 @@ title: Palladium (Pd)
 
 ### What is PalladiumCoin?
 PalladiumCoin is an open decentralized cryptocurrency. Anyone interested can join the currency's network and take part in currency development.
-PalladiumCoin allows safe and secure transactions around the globe and offers the convenience of instant fee-free money transactions.
+PalladiumCoin offers safe and secure global transactions, offering the convenience of nearly instant feeless money transactions.
 
 ### Join Us
-PalladiumCoin is an open-sourced cyptocurrency. Hence, anybody wanting to, can become a user of the currency and voluntarily take part in operation of the network. The only thing you need to do is download special software that will create a wallet for you. With help of this software you will be able to send money to other users and receive payments from them.
+PalladiumCoin is an open-sourced cyptocurrency. Hence, anybody wanting to, can become a user of the currency and voluntarily take part in operation of the network. The only thing you are required to do is download special software that will create a wallet for you. With help of this software you will be able to send money to other users and receive payments from them.
 PalladiumCoin algorithms don’t allow other users to know your wallet balance, to whom you send money and where you receive your funds from.
-You can take part in operation of the network by using computing power of your computer. Due to this mechanism, transaction processing is decentralized, which allows a person to be not only a user, but also a participant.
+You can take part in operation of the network by using some of the available computing power of your computer. Due to this mechanism, transaction processing is decentralized, which allows a person to be not only a user, but also a participant.
 There are two ways to obtain PallidiumCoin. You can take part in network maintenance and get a reward for it, or trade for it as with any other currency.
 
 ### Transactions
