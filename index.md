@@ -33,7 +33,7 @@ All transactions are carried out each 120 seconds. Miners ensure that the transa
 In return, miners receive a lump sum every 120 seconds. Such approach allows both new money emission and zero-fee transactions.
 
 ### Coin Deflation
-PalladiumCoins are gradually getting more expensive over time, since the emission is limited to 200 billion PC. The number of PalladiumCoins emitted each 120 seconds is slightly decreasing. As a result PC gains value and exchange rate increase.
+PalladiumCoins are gradually getting more expensive over time, since the emission is limited to 22 million PC. The number of PalladiumCoins emitted each 120 seconds is slightly decreasing. As a result PC gains value and exchange rate increase.
 While currencies with sharp decrease of reward per block are exposed to intense declines in network power, PalladiumCoin emission is decreasing slowly, which protects the currency from economic shocks.
 
 ### How PalladiumCoin Works
