@@ -51,6 +51,11 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 
 ## Patch Notes
 
+### 2017-05-27
+- fixed curve to make the network more sustainable
+- fixed block rewards
+- fixed security
+
 ### 2017-05-18
 - Fixed total supply being in the incorrect format
 - Removed Debug Commands to prevent exploit
