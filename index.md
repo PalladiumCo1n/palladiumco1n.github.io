@@ -33,7 +33,7 @@ All transactions are carried out each 120 seconds. Miners ensure that the transa
 In return, miners receive a lump sum every 120 seconds. Such approach allows both new money emission and zero-fee transactions.
 
 ### Coin Deflation
-PalladiumCoins are gradually getting more expensive over time, since the emission is limited to 22 million PC. The number of PalladiumCoins emitted each 120 seconds is slightly decreasing. As a result PC gains value and exchange rate increase.
+PalladiumCoins are gradually getting more expensive over time, since the emission is limited to 2 million PC. The number of PalladiumCoins emitted each 120 seconds is slightly decreasing. As a result PC gains value and exchange rate increase.
 While currencies with sharp decrease of reward per block are exposed to intense declines in network power, PalladiumCoin emission is decreasing slowly, which protects the currency from economic shocks.
 
 ### How PalladiumCoin Works
@@ -47,7 +47,7 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 
 ### Specifications
 **Block time: 120 seconds.** It takes 120 seconds to check the authenticity of a transaction and process it. This time is used to apply cryptographic algorithms, and make the payments secure.
-**Total coins: 22 million PC.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
+**Total coins: 2 million PC.** Pallidium emission is limited. Each 120 seconds a new batch of coins is emitted and distributed between miners as reward which makes zero-fee transactions possible.
 
 ## Patch Notes
 
