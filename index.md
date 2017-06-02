@@ -51,6 +51,10 @@ This whole process takes about than 2 minutes, and the restaurant owner will get
 
 ## Patch Notes
 
+### 2017-06-01
+- Major security patch (thanks to the Monero Labs for making an announcement)
+- Added Block Checkpoint
+
 ### 2017-05-27
 - fixed curve to make the network more sustainable
 - fixed block rewards
