@@ -1,4 +1,4 @@
-.1var coin = "palladium";
+var coin = "palladium";
 
 var coinLogo = "http://pool.traid.me/img/coinicons/palladium.png";
 
