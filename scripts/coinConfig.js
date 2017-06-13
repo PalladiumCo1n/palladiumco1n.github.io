@@ -7,7 +7,8 @@ var coinDetails = "PalladiumCoin is an open decentralized cryptocurrency, based 
 var currentVersion = "1.5.1";
 
 var downloads = [
-                    {name:"Windows GUI Wallet","url":"https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/Gui.Wallet.zip"},
-                    {name:"Windows Executables","url":"https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/executables.zip"}
-                ];
+                    { name: "Windows GUI Wallet", "url": "https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/Gui.Wallet.zip" },
+                    { name: "Windows Executables", "url": "https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/executables.zip" },
+                    { name: "Logos", "url": "downloads/logos.zip" }
+];
 
