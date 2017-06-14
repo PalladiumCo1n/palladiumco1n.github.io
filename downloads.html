@@ -40,31 +40,12 @@
                 <section id="content" class="wrapper style1 special fade-up">
                     <div class="container">
                         <div class="box alt">
-                            <div class="row uniform">
-
-
-                                <section class="4u 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major fa-terminal "></span>
-                                    <div id="executable"></div>
-                                </section>
-
-
-                                <section class="4u 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major fa-laptop"></span>
-                                    <div id="guiwallet"></div>
-                                </section>
-
-
-                                <section class="4u 6u(medium) 12u$(xsmall)">
-                                    <span class="icon alt major fa-file-image-o"></span>
-                                    <div id="logos"></div>
-                                </section>
-                            </div>
+                            <div class="row uniform" id="downloads"></div>
                         </div>
                     </div>
                 </section>
             </div>
-        </div>     
+        </div>
 
 
 
@@ -101,9 +82,10 @@
 
     <script src="scripts/coinConfig.js"></script>
     <script type="text/javascript">
-        document.getElementById("guiwallet").innerHTML = "<a href='" + downloads[0].url + "'>" + "<h3>GUI Wallet</h3></a>";
-        document.getElementById("executable").innerHTML = "<a href='" + downloads[1].url + "'>" + "<h3>Executables</h3></a>";
-        document.getElementById("logos").innerHTML = "<a href='" + downloads[2].url + "'>" + "<h3>Logos</h3></a>";
+        var downloadsDiv = document.getElementById("downloads");
+        for (var i = 0; i < downloads.length; i++) {
+            downloadsDiv.innerHTML = downloadsDiv.innerHTML + '<section class="' + 12 / downloads.length + 'u 6u(medium) 12u$(xsmall)"><span class="icon alt major ' + downloads[i].faicon + '"></span><a href="' + downloads[i].url + '"><h3>' + downloads[i].name + '</h3></a></section>';
+        }
     </script>
 
 
