@@ -41,24 +41,32 @@
                         <!-- Sidebar -->
                         <section id="sidebar">
                             <section>
-                                <h3></h3>
-                                <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-                                <footer>
-                                    <ul class="actions">
-                                        <li><a href="#" class="button">Learn More</a></li>
-                                    </ul>
-                                </footer>
+                                <h3>Modified Diffie-Hellman exchange protocol</h3>
+                                <p>
+                                    In most crypto-currencies such as bitcoin, when someone knows your public address, they can check all your incoming transactions even if they are hidden behind a ring-signature.
+                                    To prevent this you could always create hundreds of keys and send them to your payers privately, but that removes the convenience of having a single public address!
+                                    PalladiumCoin has solved this issue through the automatic creation of unique one-time keys, derived from the single public key for each payment. The solution is found through
+                                    an ingenious modification of the <b>Diffie-Hellman exchange protocol</b>. It originally allowed two parties to produce a common secret key derived from their public keys.
+                                    In Palladium's version, the sender uses the receiver's public address and his own random data to compute a one-time key for the payment.
+                                </p>
+                                <p>
+                                    The sender can only produce the public portion of the key and the receiver can only compute the private portion; therefore the receiver is the only one who can release the funds
+                                    after the transaction is committed and he only needs to peform a single-formula check on each transaction to establish if it belongs to him. This process involves his private key,
+                                    preventing a third party from peforming the check and discovering the link between the sender and the receiver's unique public address!
+                                </p>
                             </section>
                             <hr />
                             <section>
 
-                                <h3>Amet Lorem Tempus</h3>
-                                <p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-                                <footer>
-                                    <ul class="actions">
-                                        <li><a href="#" class="button">Learn More</a></li>
-                                    </ul>
-                                </footer>
+                                <h3>Egalitarian Proof-Of-Work</h3>
+                                <p>
+                                    PalladiumCoin's POW mechanism (<a href="https://en.bitcoin.it/wiki/CryptoNight">CryptoNight</a>) is actually a voting mechanism. Miners vote for the right order of transactions, changes in the network, and money distribution.
+                                    Therefore, during this voting process, it is critical that all voters have equal voting rights! CryptoNight brings equality with an egalitarian proof-of-work pricing function,
+                                    which is perfectly suitable for ordinary computers. It utilizes built-in CPU instructions, which are far too expensive and incredibly difficult to implement in special purpose devices
+                                    or fast memory-on-chip devices with low latency.
+
+                                </p>
+
                             </section>
                         </section>
 
@@ -67,18 +75,50 @@
 
                         <!-- Content -->
                         <section id="content">
-                            <h3>Dolore Amet Consequat</h3>
-                            <p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-                            <p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
-                            <h3>Sed Magna Ornare</h3>
-                            <p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
-                            <ul>
-                                <li>Faucibus orci lobortis ac adipiscing integer.</li>
-                                <li>Col accumsan arcu mi aliquet placerat.</li>
-                                <li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-                                <li>Blandit massa non blandit tempor interdum.</li>
-                                <li>Lacinia mattis arcu nascetur lobortis.</li>
-                            </ul>
+                            <h3>Adaptive Limits</h3>
+                            <p>
+                                In order for a currency to be truly decentralized, it must not depend on a single entities decisions, even if this entity is the developer. Hard constants
+                                and magic numbers in the code deter the system's evolution and therefore should be cut down to the minimum. Every crucial limit (such as min fee amount and max block size)
+                                PalladiumCoin's difficulty is based upon a sum of all the work that miners have peformed during the previous 720 blocks and divided by the time that they have spent
+                                to accomplish it. The measure of work is the corresponding difficulty value for each of the blocks. The time is calculated as follows: sort all the timestamps and cut-off
+                                20% of the outliers. The range of the remaining 600 values is the time which was spent for 80% of the corresponding blocks.
+
+                                And the max block size is 2*XY where XY is the median value of the last Y block sizes. It stops bloating but still allows the limit to slowly grow with the network.
+                                Transaction size does not need to be limited explicitly since it is bound to the size of the block.
+
+
+
+                            </p>
+                            <h3>Ring Signatures</h3>
+                            <p>
+                                The ordinary digital signature (e.g. (EC)DSA, Schnorr, etc...) verification process uses the public key of the signer.
+                                It's a necessary condition, because the signature proves that the author possesses the corresponding secret key. However, this is not always sufficient.
+                            </p>
+                            <p>
+                                <b>Ring signature </b> is a more sophisticated scheme, which demands several different public keys for verification. In the case of ring signature,
+                                we have a group of individuals, each with their own secret and public key. The statement proved by ring signatures is that the signer of a given message
+                                is a member of the group. The distinction being that with traditional digital signature schemes the signer needs a single secret key, but a verifier cannot
+                                establish the exact identity of the signer. Therefor, if one were to encounter a ring signature with the public keys of 3 entities, you can only
+                                claim that one of these 3 entities was the signer but you will not be able to pinpoint which one.
+                            </p>
+                            <p>
+                                This method is used to ensure that a digital transactions sent to the network is truly untraceable by using the public keys of other members in the ring signature and only one
+                                will apply to the transaction. This approach proves that the creator of the transaction is eligible to spend the amount specified but
+                                their identity will be indistinguishable from the users whose public keys he used within his ring signatures.
+                            </p>
+
+
+
+                            <h3>Community Driven</h3>
+                            <p>
+                                PalladiumCoin is completely community driven! Meaning that if you have an awesome idea for a new feature or absolutely hate a new addition to the codebase or just want to contribute to development,
+                                contact the devs at the email in the footer, join the communities discord server, or submit a pull request on github! No change to PalladiumCoin is made without the community having knowledge and
+                                without approval! The community comes first!
+                                
+
+
+                            </p>
+
                         </section>
 
                     </div>
