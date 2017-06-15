@@ -8,6 +8,6 @@ var currentVersion = "1.5.1";
 
 var downloads = [
     { name: "Windows Executables", "url": "https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/executables.zip", faicon: "fa-terminal" },
-    { name: "Windows GUI Wallet", "url": "https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/Gui.Wallet.zip", faicon: "fa-laptop" },    
+    { name: "Windows GUI Wallet", "url": "https://github.com/PalladiumCo1n/palladium/releases/download/1.5.1/Gui.Wallet.zip", faicon: "fa-laptop" },
 ];
 
