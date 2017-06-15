@@ -1,0 +1,155 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Landed by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Getting Started - PalladiumCoin</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header">
+            <h1 id="logo"><a href="index.html">PalladiumCoin</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="downloads.html" class="button special">Downloads</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <div id="main" class="wrapper style1">
+            <div class="container">
+                <header class="major">
+                    <h2>Getting Started</h2>
+                    <p>This guide will help you get on your feet in the amazing world PalladiumCoin!</p>
+                </header>
+
+                <!-- Content -->
+                <section id="content">
+                    <h2>Introduction</h2>
+                    <p>
+                        This guide has been quickly assembled by the devs in order to help those new to the realm of cryptocurrencies get started. First of all, we would like to thank you for giving PalladiumCoin
+                        a chance. We promise you won't regret it! All referenced materials can be found in the <b>downloads center</b> which can be reached by pressing the button below or by pressing the big "download" button found on the top bar! If you have any questions or concerns, please don't hesitate
+                        to ask questions in our discord server or send us an email! Those who contribute to this guide are eligible for a portion of the bounty (a hefty reward formed from donations) and will be
+                        credited for all work done!
+                    </p>
+
+                    <h2>Running the daemon</h2>
+                    <ol>
+                        <li>Download the <b>executables</b> from the downloads center</li>
+                        <li>Extract all files from the archive into a directory (folder) of your choosing</li>
+                        <li>Launch a command prompt window by typing <code>cmd.exe</code> in your search bar and pressing 'Enter' </li>
+                        <li>Navigate the CMD window to the folder where you have extracted the executables using the command <code>cd PATH</code> where <i>PATH</i> is your file path</li>
+                        <li>Run the daemon by entering <code>daemon</code> into the cmd window</li>
+                        <li>Wait for the daemon to finish synchronizing!</li>
+                        <b>Done! To close the daemon make sure to type <code>exit</code> in the window! Otherwise the local blockchain data won't save!</b>
+                    </ol>
+
+                    <h2>Generating a wallet</h2>
+                    <p>
+                        To generate a wallet, you have many options, the easiest of which is to use the GUI wallet. On this page we have included instructions for using and installing both the GUI wallet and the command line
+                        wallet! <em>Always ensure that you backup your wallet files in case of file corruption!</em>
+                    </p>
+                    <h4>Installing and using the GUI Wallet</h4>
+                    <ol>
+                        <li>Download the <b>GUI wallet</b> from the downloads center</li>
+                        <li>Extract all files from the archive into a directory (folder) of your choosing</li>
+                        <li>Inside this folder, you will find an executable labeled <code>palladiumcoin.exe</code></li>
+                        <li>Wait for the wallet to sync with the network! </li>
+                        <strong><em>NOTICE: SYNCHRONIZATION MAY TAKE SEVERAL HOURS!!!</em></strong>
+                    </ol>
+
+                    <h4>Installing and using the Command Line Wallet</h4>
+                    <ol>
+                        <li>Follow the instructions to run the daemon</li>
+                        <li>Launch a new command prompt window and navigate to the folder where all the executables are located</li>
+                        <li>Ensure that the daemon has said that it's ready for you to open simplewallet</li>
+                        <li>Run simplewallet by entering <code>simplewallet</code> into the cmd window</li>
+                        <li>Follow on-screen instructions</li>
+                        <b>Done!</b>
+                    </ol>
+
+
+                    <h2>Mining</h2>
+                    <p>
+                        To start mining you have a multitude of options! The most common (and efficient) is pool mining! The difference between <b>pool mining</b> and <b>solo mining</b> is that pooled mining "pools" all of the resources of the clients in that pool together, to
+                        generate the solution to a given block. When the pool solves a block, the reward generated by that block's solution is split and distributed between the pools participants. Unlike Solo mining where a miner performs the mining operations alone, entirely by him/herself.
+                        All mined blocks are generated to the miner's credit, and he gains the full reward.
+                    </p>
+
+                    <h3>SOLO MINING</h3>
+                    <h4>Through the daemon</h4>
+                    <ol>
+                        <li>Follow the instructions to run the daemon</li>
+                        <li>in the daemon window, type <code>start_mining YOUR_WALLET_ADDRESS NUMBER_OF_THREADS</code> and press enter</li>
+                        <b>to stop mining, simply type <code>stop_mining</code></b>
+                    </ol>
+                    <h4>Through the command line wallet</h4>
+                    <ol>
+                        <li>Follow the instructions to run the command line wallet</li>
+                        <li>in the daemon window, type <code>start_mining NUMBER_OF_THREADS</code> and press enter</li>
+                        <b>to stop mining, simply type <code>stop_mining</code></b>
+                    </ol>
+
+                    <h3>POOL MINING</h3>
+                    <ol>
+                        <li>Find a pool on the services page that has the least amount of users</li>
+                        <li>Press the getting started tab and follow instructions</li>                        
+                    </ol>
+                    
+
+
+
+
+
+
+
+
+
+
+
+                    <a href="downloads.html" class="button special icon fa-download">Downloads</a>
+                </section>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li><a href="https://www.reddit.com/r/PalladiumCoin/" class="icon alt fa-reddit-alien"><span class="label">Reddit</span></a></li>
+                <li><a href="https://github.com/PalladiumCo1n" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://discord.gg/uDgKsm4" class="icon alt fa-comments-o"><span class="label">Discord</span></a></li>
+                <li><a href="mailto:devs@palladiumco.in" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+            <ul class="copyright">
+                <li>&copy; PalladiumCoin Devs. All rights reserved.</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
