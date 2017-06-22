@@ -1,6 +1,6 @@
 var coin = "palladium";
 
-var coinLogo = "http://palladiumco.in/images/logo.jpg";
+var coinLogo = "http://palladiumco.in/images/logo.png";
 
 var coinDetails = "PalladiumCoin is an open decentralized cryptocurrency, based upon the total estimated value of all the chemical-element palladium found within the local solar system. Anyone interested can join the currency’s network and take part in currency development. PalladiumCoin offers safe and secure global transactions, offering the convenience of nearly instant feeless money transactions.";
 
